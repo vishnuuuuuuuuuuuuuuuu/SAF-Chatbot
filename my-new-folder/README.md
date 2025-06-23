@@ -1,0 +1,1 @@
+The Thesis_Ernest_K.ipynb file can display poorly in the repository, hence to view the outputs of that were used I would recommend you downloading the file and running it in the jupyter/collab to view the outputs
