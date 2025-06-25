@@ -1,1 +1,1 @@
-The Thesis_Ernest_K.ipynb file can display poorly in the repository, hence to view the outputs of that were used I would recommend you downloading the file and running it in the jupyter/collab to view the outputs
+The original file including the metadata can be downloaded with Thesis_Ernest_K_w_Outputs, the secoond file "Thesis_Ernest_K_vanila" is for display of code within github environment. Please note, that after rerunning the code the outputs of the model are subject to change, hence expect a deviation in scores. 
