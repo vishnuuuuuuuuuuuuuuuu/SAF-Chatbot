@@ -15,10 +15,10 @@ It calls retriever.invoke(q) to fetch relevant document excerpts. Each returned 
 
 Stage 4 – Prompt assembly
 A prompt list is built in four parts:
-• A SystemMessage instructing the model to act as a “document analyst,” use only the provided excerpts, cite sources, and answer “I don’t know” if the answer is not found.
-• A sequence of HumanMessage/SystemMessage pairs representing a few‐shot set of example questions and their correct answers.
-• A HumanMessage containing the formatted “Retrieved documents” block.
-• A final HumanMessage with the new question, prefixed by “Q: ”.
+1. SystemMessage instructing the model to act as a “document analyst,” use only the provided excerpts, cite sources, and answer “I don’t know” if the answer is not found,
+2. sequence of HumanMessage/SystemMessage pairs representing a few‐shot set of example questions and their correct answers,
+3. A HumanMessage containing the formatted “Retrieved documents” block.
+4. A final HumanMessage with the new question, prefixed by “Q: ”.
 
 Stage 5 – Model invocation
 The assembled prompt is sent to chat.invoke(...). The response object’s content is the model’s answer.
