@@ -6,4 +6,4 @@ This chatbot builds on the findings of Irene S. and Ernest K., made possible by 
 The chatbot, built using Gradio library, merges RAG-Fusion and Evidence-Aware Few-Shot into a user-friendly tool.  
 
 The FAISS index we used when testing the chatbot is at /Evaluation-Irene/faiss_27reports.zip, but other indexes can be used.  
-New indexes can also be created using the Embedding part of the code found at Code-Irene/models_and_evaluation_irene.py.
+New indexes can also be created using the code at /Vishnu pre-processing/SAF TPP code.py, and then Embedding part of the code found at Code-Irene/models_and_evaluation_irene.py.
